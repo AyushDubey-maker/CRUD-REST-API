@@ -1,0 +1,23 @@
+{
+  "name": "crudmongodb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+     "dev":"nodemon server"
+  },
+  "keywords": [
+    "ayush"
+  ],
+  "author": "ayush",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.10.15"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
